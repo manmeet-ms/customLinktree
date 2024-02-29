@@ -1,0 +1,28 @@
+* {
+  /* outline: 1px solid red; */
+  font-family: "Inter", sans-serif;
+  font-weight: 400 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600 !important;
+}
+/* 
+body{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100vw;
+  margin:0 auto 0 auto;
+}
+@media only screen and (min-width: 600px) and (max-width: 10000px) {
+  
+  body{
+    width: 500px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin:0 auto 0 auto;
+  }
+} */
