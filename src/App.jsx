@@ -36,7 +36,7 @@ function App() {
       <div className="flex justify-between items-center">
         <div className="flex flex-col space-y-4">
 
-          <Card urlink="https://manmeets.me" icon={<Launch />} title="See my portfolio" desc="Get a gist of my style and experience." />
+          <Card urlink="https://manmeets.vercel.app/" icon={<Launch />} title="See my portfolio" desc="Get a gist of my style and experience." />
           <Card urlink="https://www.instagram.com/manmeet.s__/" icon={<Launch />} title="Consult in DM" desc="Get expert advice or guidance on a project." />
           <Card urlink="https://fiverr.com/wavewalker777/" icon={<Launch />} title="Freelance service" desc="Let us see and discuss how I can contribute to your project." />
           <Card urlink="https://github.com/manmeet-ms/customLinktree" icon={<Launch />} title="Get this template" desc="Learn how you can acquire this template for your own use." />
