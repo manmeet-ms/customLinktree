@@ -1,8 +1,8 @@
 import React from 'react'
 let commonStyle="hover:bg-slate-800 p-1 border border-slate-700/0 hover:border-slate-700 rounded-md"
-const Gdrive = () => {
+const Gdrive = (props) => {
   return (
-    <svg className={commonStyle} width="24px" height="24px" viewBox="0 -13.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+    <svg className={`${commonStyle} ${props.className}`} width="24px" height="24px" viewBox="0 -13.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
     <g>
         <path d="M19.3542312,196.033928 L30.644172,215.534816 C32.9900287,219.64014 36.3622164,222.86588 40.3210929,225.211737 C51.6602421,210.818376 59.5534225,199.772864 64.000634,192.075201 C68.5137119,184.263529 74.0609657,172.045039 80.6423954,155.41973 C62.9064315,153.085282 49.4659974,151.918058 40.3210929,151.918058 C31.545465,151.918058 18.1051007,153.085282 0,155.41973 C0,159.964996 1.17298825,164.510261 3.51893479,168.615586 L19.3542312,196.033928 Z" fill="#0066DA">
 
@@ -27,9 +27,9 @@ const Gdrive = () => {
   )
 }
 
-const Figma = () => {
+const Figma = (props) => {
     return (
-      <svg className={commonStyle} width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <svg className={`${commonStyle} ${props.className}`} width="24px" height="24px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
     <g fill="none" fill-rule="evenodd" transform="translate(4)">
       <circle cx="12" cy="12" r="4" fill="#19BCFE"/>
       <path fill="#09CF83" d="M4,24 C6.209139,24 8,22.209139 8,20 C8,19.3969461 8,18.0636128 8,16 C6.20303877,16 4.86970543,16 4,16 C1.790861,16 0,17.790861 0,20 C0,22.209139 1.790861,24 4,24 Z"/>
